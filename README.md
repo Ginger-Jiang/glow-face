@@ -38,8 +38,3 @@ yarn run dev
 tcb
 ```
 
-# 注意
-
-本人使用 Nginx 代理接口服务, 所以 baseUrl 为 `localhost:9001`
-
-如果直接部署后调用请忽略

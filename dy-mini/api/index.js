@@ -1,4 +1,4 @@
-const baseUrl = tt.env.VERSION === "production" ? 'https://glow-face-5gxrhrsu0130d7f4.service.tcloudbase.com/glow-face' : 'http://localhost:9001'
+const baseUrl = tt.env.VERSION === "production" ? 'https://glow-face-5gxrhrsu0130d7f4.service.tcloudbase.com/glow-face' : 'http://localhost:7002'
 
 /**
  * API 请求封装

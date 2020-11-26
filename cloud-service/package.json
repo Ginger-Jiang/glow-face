@@ -27,7 +27,7 @@
   "scripts": {
     "start": "egg-scripts start --daemon --title=egg-server-egg-starter",
     "stop": "egg-scripts stop --title=egg-server-egg-starter",
-    "dev": "egg-bin dev",
+    "dev": "egg-bin dev --port 7002",
     "debug": "egg-bin debug",
     "deploy": "cloudbase framework deploy",
     "lint": "eslint .",
