@@ -5,17 +5,10 @@ const Controller = require('egg').Controller;
 class HomeController extends Controller {
   async index() {
     const { ctx } = this;
-    ctx.type = 'html';
-    ctx.body = `<!DOCTYPE html>
-<html>
-  <head>
-    <title>Tencent CloudBase + Egg.js</title>
-  </head>
-  <body>
-    Hello World Serverless
-  </body>
-</html>
-`;
+    ctx.body = {
+      name: 'Jack',
+      age: 18,
+    };
   }
 
   async api() {
