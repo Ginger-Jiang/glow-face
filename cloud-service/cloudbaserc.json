@@ -12,6 +12,16 @@
           "name": "glow-face",
           "path": "/glow-face"
         }
+      },
+      "client": {
+        "use": "@cloudbase/framework-plugin-database",
+        "inputs": {
+          "collections": [
+            {
+              "collectionName": "face-store"
+            }
+          ]
+        }
       }
     }
   }
