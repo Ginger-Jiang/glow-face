@@ -1,0 +1,4 @@
+<view class="intro">
+  <view>Hello World</view>
+  <button type="default" size="default" bindtap="defaultTap"> Button </button>
+</view>
