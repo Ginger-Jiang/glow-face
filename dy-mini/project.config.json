@@ -1,11 +1,11 @@
 {
-    "setting": {
-        "urlCheck": true,
-        "es6": true,
-        "postcss": true,
-        "minified": true,
-        "newFeature": true
-    },
-    "appid": "tt5727219ac81c8eb7",
-    "projectname": "glow-face"
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "tt5727219ac81c8eb7",
+	"projectname": "glow-face"
 }

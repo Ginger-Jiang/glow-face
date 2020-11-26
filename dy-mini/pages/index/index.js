@@ -1,7 +1,8 @@
 const app = getApp()
-
+const { api } = require('../../api/index')
 Page({
-  defaultTap(e) {
-    console.log('e', e, tt)
+  async defaultTap(e) {
+    const res = await api({url: '/login'});
+    console.log('app', res)
   }
 })
