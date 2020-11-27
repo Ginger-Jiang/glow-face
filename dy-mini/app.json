@@ -1,11 +1,13 @@
 {
   "pages":[
-    "pages/index/index"
+    "pages/home/index",
+    "pages/home/banner/banner"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Mini Program",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#0798F1",
+    "navigationBarTitleText": "焕脸",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
   }
 }

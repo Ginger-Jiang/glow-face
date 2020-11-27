@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="body body-space">
+    <view class="page-section">
+      <swiper indicator-dots="{{true}}" indicator-color="rgba(0, 0, 0, .3)" indicator-active-color="rgba(0, 0, 0, 1)" current="{{0}}" current-item-id="" previous-margin="" next-margin="" display-multiple-items="{{1}}"  autoplay="{{true}}" interval="{{interval}}" circular="{{circular}}" vertical="{{vertical}}" duration="{{duration}}" bindanimationfinish="animationFinish" bindtransition="transition" >
+        <block tt:for="{{background}}">
+          <swiper-item>
+            <image class="image" src="../../../img/common/coming-soon.jpg" mode="aspectFill" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+</view>

@@ -1,4 +1,4 @@
-<view class="intro">
-  <view>Hello World</view>
+<view class="home__container">
+  <home-banner></home-banner>
   <button type="default" size="default" bindtap="defaultTap"> Button </button>
 </view>
