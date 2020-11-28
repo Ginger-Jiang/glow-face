@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/home/index",
-    "pages/home/banner/banner"
+    "pages/home/banner/banner",
+    "pages/home/modules/modules"
   ],
   "window":{
     "backgroundTextStyle":"light",

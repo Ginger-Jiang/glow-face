@@ -1,0 +1,8 @@
+<view class="home-modules__container">
+	<view class="modules__container">
+		<navigator url="navigate?title=navigate" open-type="navigate" hover-class="navigator-hover" hover-start-time="50" hover-stay-time="400"
+		 hover-stop-propagation="{{false}}" tt:for="{{modules}}" class="module-item">
+			{{item.name}}
+		</navigator>
+	</view>
+</view>

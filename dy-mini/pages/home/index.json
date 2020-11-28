@@ -1,5 +1,6 @@
 {
   "usingComponents": {
-    "home-banner": "./banner/banner"
+    "home-banner": "./banner/banner",
+    "home-module": "./modules/modules"
   }
 }

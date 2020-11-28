@@ -1,0 +1,21 @@
+/* pages/home/modules/modules.ttss */
+.home-modules__container {
+  margin: 6px 0;
+}
+.modules__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.module-item {
+  width: 45%;
+  color: white;
+  text-align: center;
+  line-height: 90px;
+  box-sizing: border-box;
+  height: 90px;
+  margin: 4px;
+  background: linear-gradient(-90deg, #0798f1, #07c2f1);
+  border-radius: 20px;
+}
