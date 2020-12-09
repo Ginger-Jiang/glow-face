@@ -1,0 +1,4 @@
+<!-- pages/cartoon/index.ttml -->
+<view class="cartoon__container">
+  <button type="default" bindtap="defaultTap"> Button </button>
+</view>

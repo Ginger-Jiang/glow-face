@@ -2,7 +2,9 @@
   "pages":[
     "pages/home/index",
     "pages/home/banner/banner",
-    "pages/home/modules/modules"
+    "pages/home/modules/modules",
+    "pages/melting/index",
+    "pages/cartoon/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
