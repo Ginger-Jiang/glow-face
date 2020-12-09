@@ -1,5 +1,5 @@
 <view class="home__container">
   <home-banner></home-banner>
   <home-module></home-module>
-  <button type="default" size="default" bindtap="defaultTap"> Button </button>
+  <!-- <button type="default" size="default" bindtap="defaultTap"> Button </button> -->
 </view>
