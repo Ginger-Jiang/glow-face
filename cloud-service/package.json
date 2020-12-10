@@ -8,9 +8,12 @@
   },
   "dependencies": {
     "@cloudbase/node-sdk": "^2.4.0",
+    "await-stream-ready": "^1.0.1",
+    "dayjs": "^1.9.7",
     "egg": "^2.15.1",
     "egg-scripts": "^2.11.0",
-    "serverless-http": "^2.5.0"
+    "serverless-http": "^2.5.0",
+    "stream-wormhole": "^1.1.0"
   },
   "devDependencies": {
     "autod": "^3.0.1",

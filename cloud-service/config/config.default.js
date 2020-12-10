@@ -18,7 +18,21 @@ module.exports = appInfo => {
     },
   };
 
-  // use for cookie sign key, should change to your own and keep security
+  // 开发阶段放开
+  config.security = {
+    csrf: {
+      enable: false,
+    },
+  };
+
+  // 上传配置
+  config.multipart = {
+    fileSize: '50mb',
+    mode: 'stream',
+    fileExtensions: [ 'jpeg', '.xls', '.txt' ], // 扩展几种上传的文件格式
+  };
+
+  // cookie标志键，应更改为您自己的，并保持安全
   config.keys = appInfo.name + '_1593514233357_3744';
 
   // add your middleware config here

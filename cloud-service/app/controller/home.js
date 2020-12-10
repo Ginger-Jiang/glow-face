@@ -1,8 +1,8 @@
 'use strict';
 
-const Controller = require('egg').Controller;
+const BaseController = require('./base');
 
-class HomeController extends Controller {
+class HomeController extends BaseController {
   async index() {
     const { ctx } = this;
     const userInfo = await ctx.service.user.find();

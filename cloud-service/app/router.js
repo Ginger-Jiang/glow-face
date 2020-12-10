@@ -5,6 +5,6 @@
  */
 module.exports = app => {
   const { router, controller } = app;
-  router.get('/home', controller.home.index);
-  router.get('/login', controller.login.index);
+  router.get('/api/home', controller.home.index); // 首页
+  router.post('/api/cartoon', controller.cartoon.index); // 动漫照片
 };
