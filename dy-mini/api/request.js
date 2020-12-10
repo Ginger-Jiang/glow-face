@@ -9,7 +9,7 @@ const api = ({ url = '', methods = "get", data = {} }) => {
     tt.request({
       methods,
       data,
-      url: baseUrl + url, // 目标服务器url
+      url: baseUrl + '/api' + url, // 目标服务器url
       success: (res) => {
         resolve(res.data)
       },

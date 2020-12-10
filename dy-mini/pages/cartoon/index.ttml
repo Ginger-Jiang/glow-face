@@ -1,4 +1,14 @@
 <!-- pages/cartoon/index.ttml -->
 <view class="cartoon__container">
-  <button type="default" bindtap="defaultTap"> Button </button>
+  <button type="default" bindtap="handleUpload"> 
+    上传照片
+  </button>
+  <view tt:if="{{imageList.length > 0}}">
+    <view tt:for="{{imageList}}">
+      <image src="{{item.path}}" />
+    </view> 
+  </view>
+  <view>
+    <image src={{image}} />
+  </view>
 </view>

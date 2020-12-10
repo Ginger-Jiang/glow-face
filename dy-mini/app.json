@@ -3,8 +3,8 @@
     "pages/home/index",
     "pages/home/banner/banner",
     "pages/home/modules/modules",
-    "pages/melting/index",
-    "pages/cartoon/index"
+    "pages/cartoon/index",
+    "pages/melting/index"
   ],
   "window":{
     "backgroundTextStyle":"light",
