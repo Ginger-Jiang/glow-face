@@ -8,8 +8,10 @@ const Controller = require('egg').Controller;
 class BaseController extends Controller {
   // success
   success(data) {
+    // console.log('接口返回了---->', data);
     this.ctx.body = {
-      success: true,
+      code: 0,
+      message: 'success',
       data,
     };
   }
@@ -37,7 +39,7 @@ class BaseController extends Controller {
       };
     }
     return {
-      url: path.join('/public/admin/uploads', fileName),
+      url: path.join('app/public/admin/uploads', fileName),
       fields: stream.fields,
     };
   }

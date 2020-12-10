@@ -5,7 +5,7 @@ const BaseController = require('./base');
 class HomeController extends BaseController {
   async index() {
     const { ctx } = this;
-    const userInfo = await ctx.service.user.find();
+    const userInfo = await ctx.service.home.getUserList();
     ctx.body = userInfo.res.data;
   }
 }

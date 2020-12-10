@@ -5,9 +5,9 @@ const Service = require('egg').Service;
 
 
 const app = cloudbase.init({
-  env: '你的环境id',
-  secretId: '你的腾讯云账号secretId',
-  secretKey: '你的腾讯云账号secretKey',
+  env: 'xxx',
+  secretId: 'xxx',
+  secretKey: 'xxx',
 });
 
 // // 1. 获取数据库引用
@@ -23,7 +23,6 @@ const main = async () => {
     // get() 方法会触发网络请求，往数据库取数据
     .get();
 
-  console.log('res: ', res);
   return {
     res,
   };
@@ -31,7 +30,7 @@ const main = async () => {
 
 
 class UserService extends Service {
-  async find() {
+  async getUserList() {
     const user = await main();
     return user;
   }
